@@ -18,6 +18,6 @@ Game.registerMod('ConjureBakedGoodsInfo',{
 					
 					if (!l('bakerySubtitle33')) l('bakeryName').insertAdjacentHTML('afterend','<div id="bakerySubtitle33" class="title" style="text-align:center;position:absolute;left:0px;right:0px;bottom:-120px;font-size:15px;pointer-events:none;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;opacity:1;"></div>');
 					l('bakerySubtitle33').textContent='Expected conjured amount: '+Beautify(currentMax);
-					
+					//
 				},
 			});
