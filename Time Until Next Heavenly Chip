@@ -1,6 +1,6 @@
-Game.registerMod('timer',{
+Game.registerMod('TimeUntilNextHeavenlyChip',{
 				init:function(){
-					Game.registerHook('draw',function(){Game.mods['timer'].addPrestigeTimer();});
+					Game.registerHook('draw',function(){Game.mods['TimeUntilNextHeavenlyChip'].addPrestigeTimer();});
 				},
 				
 				addPrestigeTimer:function(text){
